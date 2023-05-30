@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="create.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-auth-compat.js"></script>
+
+    <title>Create Account </title>
+</head>
+<body>
+    <h1> Go to Profile </h1>
+    <div class="form">
+        <div class="email">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+
+        </div> <br>
+    <!-- password  -->
+    <div class="password">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+
+    </div>
+
+  <button class="submit-btn" onclick="signUp()" >Sign Up</button> <br>
+  <p> Already i have an Account? </p>
+  <span><a href="signIn.html">Sign In</a> </span>
+    </div>
+    <script  src="loge.js"></script>
+</body>
+</html>

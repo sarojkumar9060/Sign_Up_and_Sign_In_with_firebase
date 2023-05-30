@@ -1,0 +1,95 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" class="login-pf">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="robots" content="noindex, nofollow">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Log in to Internal</title>
+    <link rel="icon" href="/auth/resources/7zrvw/login/balic_new_logo/img/favicon.ico" />
+    <link href="/auth/resources/7zrvw/login/balic_new_logo/node_modules/patternfly/dist/css/patternfly.min.css"
+        rel="stylesheet" />
+    <link
+        href="/auth/resources/7zrvw/login/balic_new_logo/node_modules/patternfly/dist/css/patternfly-additions.min.css"
+        rel="stylesheet" />
+    <link href="/auth/resources/7zrvw/login/balic_new_logo/lib/zocial/zocial.css" rel="stylesheet" />
+    <link href="/auth/resources/7zrvw/login/balic_new_logo/css/login.css" rel="stylesheet" />
+    <script src="/auth/resources/7zrvw/login/balic_new_logo/js/custom.js" type="text/javascript"></script>
+</head>
+
+<body class="">
+    <div class="login-pf-page">
+        <div id="kc-header" class="login-pf-page-header">
+            <div id="kc-header-wrapper" class="">Internal</div>
+        </div>
+        <div class="card-pf ">
+            <header class="login-pf-header">
+                <h1 id="kc-page-title"> Log In
+
+                </h1>
+            </header>
+            <div id="kc-content">
+                <div id="kc-content-wrapper">
+
+
+                    <script>
+                        function myFunction(submit) {
+                            document.getElementById("kc-form-login").submit();
+                        }
+                    </script>
+                    <div id="kc-form">
+                        <div id="kc-form-wrapper">
+
+                            <form id="kc-form-login" onsubmit="login.disabled = true; return true;"
+                                action="https://sso-rhsso-prod.apps.ocplife.bajajallianz.com/auth/realms/internal/login-actions/authenticate?session_code=fbpPhBXwpyPaR3SkXbq80Ma7ltA3bNWcr94HpD_toSc&amp;execution=a5028a32-3728-4bb9-bc5c-cd7d3b7eb603&amp;client_id=irecruit&amp;tab_id=7pfJKChwIro"
+                                method="post" onkeydown="return event.key != 'Enter';">
+                                <div class="form-group" fxLayout="column" fxLayoutAlign="space-between center">
+                                    <label id="usernameLabel" for="username" class="control-label">User ID / Email ID /
+                                        Mobile Number</label>
+                                    <input tabindex="1" id="username" class="form-control" name="username"
+                                        type="text" />
+                                </div>
+                                <div class="form-group">
+                                    <label id="passwordLabel" for="password" class="control-label">Password</label>
+                                    <input tabindex="1" id="password" class="form-control" name="password"
+                                        type="password" />
+                                </div>
+                        </div>
+
+                        <div class="">
+                            <br>
+                            <a href="https://payment-app.apps.ocplife.bajajallianz.com/help-and-support"
+                                target="_blank">Help & Support</a>
+
+                            <input type='submit' style="cursor:pointer;color:white;background:none;border:none"
+                                id="kc-forgot" name="loginOTP" value="Login with OTP" /><br>
+
+                            <span><a id="kc-forgot"
+                                    href="/auth/realms/internal/login-actions/reset-credentials?client_id=irecruit&amp;tab_id=7pfJKChwIro">Forgot
+                                    Password?</a></span>
+                        </div>
+
+                        <div id="kc-form-buttons" class="form-group">
+                            <input tabindex="5" class="btn btn-primary btn-block btn-lg" name="login" id="kc-login"
+                                type="submit" value="Login" />
+                        </div>
+
+                        </form>
+
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+    </div>
+</body>
+
+</html>
